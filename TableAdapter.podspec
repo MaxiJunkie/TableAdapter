@@ -13,6 +13,6 @@ This TableView Adapter makes your app look fantastic!
   s.source           = { :git => 'https://github.com/MaxiJunkie/TableAdapter.git', :branch => "master", :tag => s.version.to_s }
  
   s.ios.deployment_target = '13.0'
-  s.source_files = 'TableAdapter/*.swift'
+  s.source_files = 'TableAdapter/Table/*.swift'
  
 end

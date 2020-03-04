@@ -14,6 +14,10 @@
 		F516A8B3240C625700F716C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F516A8B2240C625700F716C1 /* Assets.xcassets */; };
 		F516A8B6240C625700F716C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F516A8B4240C625700F716C1 /* LaunchScreen.storyboard */; };
 		F516A8BE240C626A00F716C1 /* TableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F516A8BD240C626A00F716C1 /* TableAdapter.swift */; };
+		F516A8C1240C6D1300F716C1 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F516A8C0240C6D1300F716C1 /* TableViewModel.swift */; };
+		F56095E8240F73E200C1C4C5 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56095E7240F73E200C1C4C5 /* TicketsViewController.swift */; };
+		F56095EB240F74F300C1C4C5 /* TicketsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56095EA240F74F300C1C4C5 /* TicketsAssembly.swift */; };
+		F56095ED240F773A00C1C4C5 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56095EC240F773A00C1C4C5 /* TicketTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		F516A8B5240C625700F716C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F516A8B7240C625700F716C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F516A8BD240C626A00F716C1 /* TableAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableAdapter.swift; sourceTree = "<group>"; };
+		F516A8C0240C6D1300F716C1 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		F56095E7240F73E200C1C4C5 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		F56095EA240F74F300C1C4C5 /* TicketsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsAssembly.swift; sourceTree = "<group>"; };
+		F56095EC240F773A00C1C4C5 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		F516A8A8240C625600F716C1 /* TableAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				F516A8BF240C69FA00F716C1 /* Table */,
 				F516A8A9240C625600F716C1 /* AppDelegate.swift */,
 				F516A8AB240C625600F716C1 /* SceneDelegate.swift */,
 				F516A8AD240C625600F716C1 /* ViewController.swift */,
@@ -65,9 +74,28 @@
 				F516A8B2240C625700F716C1 /* Assets.xcassets */,
 				F516A8B4240C625700F716C1 /* LaunchScreen.storyboard */,
 				F516A8B7240C625700F716C1 /* Info.plist */,
-				F516A8BD240C626A00F716C1 /* TableAdapter.swift */,
 			);
 			path = TableAdapter;
+			sourceTree = "<group>";
+		};
+		F516A8BF240C69FA00F716C1 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F56095E9240F74D500C1C4C5 /* Tickets */,
+				F516A8BD240C626A00F716C1 /* TableAdapter.swift */,
+				F516A8C0240C6D1300F716C1 /* TableViewModel.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		F56095E9240F74D500C1C4C5 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				F56095E7240F73E200C1C4C5 /* TicketsViewController.swift */,
+				F56095EA240F74F300C1C4C5 /* TicketsAssembly.swift */,
+				F56095EC240F773A00C1C4C5 /* TicketTableViewCell.swift */,
+			);
+			path = Tickets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F516A8AE240C625600F716C1 /* ViewController.swift in Sources */,
+				F56095EB240F74F300C1C4C5 /* TicketsAssembly.swift in Sources */,
+				F516A8C1240C6D1300F716C1 /* TableViewModel.swift in Sources */,
+				F56095ED240F773A00C1C4C5 /* TicketTableViewCell.swift in Sources */,
 				F516A8AA240C625600F716C1 /* AppDelegate.swift in Sources */,
 				F516A8BE240C626A00F716C1 /* TableAdapter.swift in Sources */,
+				F56095E8240F73E200C1C4C5 /* TicketsViewController.swift in Sources */,
 				F516A8AC240C625600F716C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
